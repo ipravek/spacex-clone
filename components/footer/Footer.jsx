@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import Link from "next/link"
 
 const Footer = () => {
   return (
@@ -9,22 +10,22 @@ const Footer = () => {
             <span style={{ color: "#818181" }}>SpaceX © 2022</span>
           </div>
           <div className={styles.footerLinks}>
-            <a href="">TWITTER</a>
+            <Link href="">TWITTER</Link>
           </div>
           <div className={styles.footerLinks}>
-            <a href="">YOUTUBE</a>
+            <Link href="">YOUTUBE</Link>
           </div>
           <div className={styles.footerLinks}>
-            <a href="">INSTAGRAM</a>
+            <Link href="">INSTAGRAM</Link>
           </div>
           <div className={styles.footerLinks}>
-            <a href="">LINKEDIN</a>
+            <Link href="">LINKEDIN</Link>
           </div>
           <div className={styles.footerLinks}>
-            <a href="">PRIVACY POLICY</a>
+            <Link href="">PRIVACY POLICY</Link>
           </div>
           <div className={styles.footerLinks}>
-            <a href="">SUPPLIERS</a>
+            <Link href="">SUPPLIERS</Link>
           </div>
         </div>
       </div>
