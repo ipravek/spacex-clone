@@ -1,0 +1,49 @@
+.button {
+  color: var(--font-color);
+  background: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  min-width: 130px;
+  padding: 19px 25px 17px;
+  font-weight: 600;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.button::before {
+  background: #fff;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.button::after {
+  background: #fff;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.button:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.animate::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform-origin: top center;
+  transform: scale3d(1, 0, 1);
+  transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.animate:hover::after {
+  height: 100%;
+  width: 100%;
+  transform: scale3d(1, 1, 1);
+  transform-origin: bottom center;
+}

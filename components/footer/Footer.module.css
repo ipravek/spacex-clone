@@ -1,0 +1,18 @@
+.main {
+  width: var(--max-width);
+  margin: auto;
+  height: 100px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #000;
+  font-size: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+

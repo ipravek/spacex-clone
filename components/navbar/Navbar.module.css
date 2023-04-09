@@ -1,0 +1,59 @@
+.main {
+  width: var(--max-width);
+  margin: auto;
+  display: flex;
+}
+
+.navbar {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  z-index: 1;
+  height: 100px;
+
+  position: absolute;
+}
+
+.logo img {
+  width: 16rem;
+  height: 26px;
+  margin: 2rem;
+}
+
+.navLinks {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+}
+
+.navItem {
+  color: var(--font-color);
+}
+
+
+.sidebar {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  right: 0;
+  top: 47px;
+  right: 40px;
+  color: var(--font-color);
+  z-index: 1;
+}
+
+.sidebar Img {
+  cursor: pointer;
+}
+
+.cross{
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+}
+/* 
+.sidebarMenu{
+  position: absolute;
+  z-index: 9;
+} */

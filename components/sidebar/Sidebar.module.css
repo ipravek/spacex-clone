@@ -1,0 +1,21 @@
+.main {
+  display: none;
+
+  height: 120vh;
+  background-color: #000;
+  width: 350px;
+
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  border: 1px solid white;
+}
+
+.main Img {
+  cursor: pointer;
+}
+
+.sidebarMenu {
+  position: absolute;
+  z-index: 9;
+}
