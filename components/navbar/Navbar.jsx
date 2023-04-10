@@ -4,6 +4,7 @@ import Image from "next/image";
 import logo from "@/assets/images/logo.png";
 import Sidebar from "../sidebar/Sidebar";
 import hamburger from "@/assets/images/menu.svg";
+import Link from "next/link";
 
 const Navbar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -23,35 +24,35 @@ const Navbar = () => {
 
           <div className={styles.navLinks}>
             <div className={styles.navItem}>
-              <a href="/">FALCON 9</a>
+              <Link href="/">FALCON 9</Link>
             </div>
             <div className={styles.navItem}>
-              <a href="/">FALCON HEAVY</a>
+              <Link href="/">FALCON HEAVY</Link>
             </div>
             <div className={styles.navItem}>
-              <a href="/">DRAGON</a>
+              <Link href="/">DRAGON</Link>
             </div>
             <div className={styles.navItem}>
-              <a href="/">STARSHIP</a>
+              <Link href="/">STARSHIP</Link>
             </div>
             <div className={styles.navItem}>
-              <a href="/">HUMAN SPACEFLIGHT</a>
+              <Link href="/">HUMAN SPACEFLIGHT</Link>
             </div>
             <div className={styles.navItem}>
-              <a href="/">RIDESHARE</a>
+              <Link href="/">RIDESHARE</Link>
             </div>
             <div className={styles.navItem}>
-              <a href="/">STARSHIELD</a>
+              <Link href="/">STARSHIELD</Link>
             </div>
             <div className={styles.navItem}>
-              <a href="/">STARLINK</a>
+              <Link href="/">STARLINK</Link>
             </div>
           </div>
         </div>
       </div>
 
       <div className={styles.sidebar}>
-        <a href="/">SHOP</a>
+        <Link href="/">SHOP</Link>
         {/* {showSidebar ? ( */}
           <Image
             src={hamburger}
