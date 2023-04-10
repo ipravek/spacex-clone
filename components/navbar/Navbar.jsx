@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 import Image from "next/image";
-import logo from "@/assets/images/logo.png";
-import Sidebar from "../sidebar/Sidebar";
-import hamburger from "@/assets/images/menu.svg";
+import logo from "./../../assets/images/logo.png";
+import Sidebar from "./../sidebar/Sidebar";
+import hamburger from "./../../assets/images/Menu.svg";
 import Link from "next/link";
 
 const Navbar = () => {
