@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Sidebar.module.css";
-import hamburger from "@/assets/images/menu.svg";
+import hamburger from "./../../assets/images/Menu.svg";
 
 const Sidebar = ({ on }) => {
   const [toggle, setToggle] = useState(false);
